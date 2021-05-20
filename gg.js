@@ -32,7 +32,7 @@ let result=0;
 for(i=0;i<ranges.length;i++)
 {
 rang=ranges[i];
-rang=rang.split("-");
+rang=rang.split("-"); 
 if(dadadada(myip2,rang[0],rang[1])){result=1;}
 }
 if(result==1){exploit_it2();}else goback();
